@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="Client_Pane" prefHeight="800.0" prefWidth="350.0" stylesheets="@css/Client.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml_view.Clientcontroller">
+   <children>
+      <Pane fx:id="user_pane" layoutY="36.0" prefHeight="127.0" prefWidth="350.0">
+         <children>
+            <Label fx:id="user_signature" layoutX="175.0" layoutY="83.0" prefHeight="24.0" prefWidth="137.0" text="user_signature">
+               <font>
+                  <Font name="KaiTi" size="18.0" />
+               </font></Label>
+            <Label fx:id="user_nickname" layoutX="175.0" layoutY="20.0" text="user_nickname">
+               <font>
+                  <Font name="KaiTi" size="18.0" />
+               </font></Label>
+            <ImageView fx:id="user_icon" fitHeight="60.0" fitWidth="60.0" layoutX="30.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="user_state" fitHeight="10.0" fitWidth="10.0" layoutX="70.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true" />
+         </children></Pane>
+      <Button fx:id="min" layoutX="245.0" layoutY="-1.0" mnemonicParsing="false" text="min" />
+      <Button fx:id="close" layoutX="293.0" layoutY="-1.0" mnemonicParsing="false" text="close" />
+      <AnchorPane fx:id="show_friends" layoutX="1.0" layoutY="215.0" prefHeight="591.0" prefWidth="348.0" />
+      <ScrollPane fx:id="friends_scrollpane" layoutY="215.0" prefHeight="599.0" prefWidth="350.0" />
+   </children>
+</AnchorPane>

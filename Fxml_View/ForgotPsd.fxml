@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="548.0" prefWidth="836.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml_view.ForgotPsdcontroller">
+   <children>
+      <Label layoutX="37.0" layoutY="37.0" prefHeight="54.0" prefWidth="232.0" text="请完善以下需要找回的个人资料" />
+      <Label layoutX="472.0" layoutY="226.0" text="昵称" />
+      <Label layoutX="37.0" layoutY="108.0" text="最近使用的头像" />
+      <ScrollPane layoutX="22.0" layoutY="160.0" prefHeight="351.0" prefWidth="358.0" />
+      <TextField fx:id="nickname_text" layoutX="556.0" layoutY="221.0" />
+      <TextField fx:id="contact_info" layoutX="556.0" layoutY="290.0" />
+      <Label layoutX="472.0" layoutY="295.0" text="联系方式" />
+      <Label layoutX="472.0" layoutY="368.0" text="性别" />
+      <Button fx:id="comfirm" layoutX="636.0" layoutY="457.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="105.0" text="确认" />
+      <CheckBox fx:id="check_man" layoutX="579.0" layoutY="368.0" mnemonicParsing="false" text="男" />
+      <CheckBox fx:id="check_woman" layoutX="667.0" layoutY="368.0" mnemonicParsing="false" text="女" />
+      <Button fx:id="back_to_login" layoutX="461.0" layoutY="457.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="105.0" text="返回登录" />
+      <Label layoutX="472.0" layoutY="108.0" text="个人资料" />
+      <Label fx:id="id" layoutX="472.0" layoutY="168.0" text="账号" />
+      <TextField fx:id="id_text" layoutX="556.0" layoutY="163.0" />
+   </children>
+</AnchorPane>

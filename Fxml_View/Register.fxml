@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="545.0" prefWidth="719.0" stylesheets="@css/Register.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml_view.Registercontroller">
+   <children>
+      <TextField fx:id="nickname_text" layoutX="395.0" layoutY="66.0" />
+      <TextField fx:id="signature_text" layoutX="394.0" layoutY="219.0" />
+      <Label fx:id="nickname" layoutX="290.0" layoutY="71.0" text=" 昵称" />
+      <Label fx:id="password" layoutX="294.0" layoutY="168.0" text="密码" />
+      <Label fx:id="signature" layoutX="278.0" layoutY="224.0" text="个人签名" />
+      <Label fx:id="address" layoutX="294.0" layoutY="278.0" text="地址" />
+      <Label fx:id="contact_information" layoutX="279.0" layoutY="336.0" text="联系方式" />
+      <TextField fx:id="address_text" layoutX="395.0" layoutY="273.0" />
+      <TextField fx:id="contact_information_text" layoutX="395.0" layoutY="331.0" />
+      <Button fx:id="confirm_register" layoutX="425.0" layoutY="455.0" mnemonicParsing="false" onAction="#confirm_regist" text="确定注册" />
+      <Button fx:id="return_login" layoutX="199.0" layoutY="455.0" mnemonicParsing="false" text="返回登录" />
+      <ScrollPane layoutY="62.0" prefHeight="314.0" prefWidth="244.0">
+        <content>
+          <AnchorPane fx:id="choose_icon_pane" minHeight="0.0" minWidth="0.0" prefHeight="318.0" prefWidth="240.0" />
+        </content>
+      </ScrollPane>
+      <CheckBox fx:id="woman" layoutX="521.0" layoutY="118.0" mnemonicParsing="false" text="女" />
+      <CheckBox fx:id="man" layoutX="422.0" layoutY="118.0" mnemonicParsing="false" text="男" />
+      <Label fx:id="sex" layoutX="294.0" layoutY="118.0" text="性别" />
+      <PasswordField fx:id="psd_text" layoutX="394.0" layoutY="163.0" />
+      <Label fx:id="icon" layoutX="14.0" layoutY="28.0" text="头像" />
+   </children>
+</Pane>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="821.0" stylesheets="@css/Chat.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml_view.Chatcontroller">
+   <children>
+    <AnchorPane fx:id="friend_info_pane" minHeight="0.0" minWidth="0.0" prefHeight="73.0" prefWidth="821.0">
+         <children>
+            <Label fx:id="friend_nickname" layoutX="139.0" layoutY="27.0" prefHeight="20.0" prefWidth="109.0" text="Label" />
+            <ImageView fx:id="friend_icon" fitHeight="60.0" fitWidth="60.0" layoutX="23.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </AnchorPane>
+      <TextArea fx:id="message_send_textarea" layoutX="-2.0" layoutY="398.0" prefHeight="200.0" prefWidth="821.0" />
+      <Button fx:id="close" layoutX="618.0" layoutY="549.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="85.0" text="关闭">
+         <font>
+            <Font name="KaiTi" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="send" layoutX="713.0" layoutY="549.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="85.0" text="确定">
+         <font>
+            <Font name="KaiTi" size="18.0" />
+         </font>
+      </Button>
+      <AnchorPane fx:id="message_view_anchorpane" layoutX="6.0" layoutY="78.0" prefHeight="320.0" prefWidth="805.0" />
+      <ScrollPane fx:id="message_view_scrollpane" layoutY="74.0" prefHeight="330.0" prefWidth="821.0" />
+   </children>
+</Pane>

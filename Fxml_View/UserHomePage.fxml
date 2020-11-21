@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml_vie.UserHomePagecontroller">
+   <children>
+      <ScrollPane fx:id="friend_photo_scrollpane" layoutX="450.0" prefHeight="650.0" prefWidth="450.0">
+         <content>
+            <AnchorPane prefHeight="650.0" prefWidth="450.0">
+               <children>
+                  <Label layoutX="55.0" layoutY="133.0" text="联系方式" />
+                  <Label layoutX="55.0" layoutY="57.0" text="性别" />
+                  <Label fx:id="contact_info" layoutX="178.0" layoutY="133.0" text="联系方式" />
+                  <ImageView fx:id="sex_icon" fitHeight="35.0" fitWidth="30.0" layoutX="17.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="35.0" fitWidth="30.0" layoutX="9.0" layoutY="67.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="35.0" fitWidth="30.0" layoutX="24.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label layoutX="54.0" layoutY="203.0" text="所在地" />
+                  <Label fx:id="user_adress" layoutX="178.0" layoutY="203.0" text="user_address" />
+                  <Label layoutX="178.0" layoutY="58.0" text="user_sex" />
+                  <Label layoutX="17.0" layoutY="315.0" text="照片墙" />
+                  <Line endX="200.0" layoutX="250.0" layoutY="300.0" startX="-250.0" />
+                  <ImageView fitHeight="302.0" fitWidth="435.0" layoutX="7.0" layoutY="335.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </AnchorPane>
+         </content></ScrollPane>
+      <AnchorPane fx:id="wallpaper" layoutX="3.0" prefHeight="380.0" prefWidth="450.0">
+         <children>
+            <Label layoutX="14.0" layoutY="14.0" prefHeight="27.0" prefWidth="30.0" text="壁纸" />
+            <ImageView fitHeight="130.0" fitWidth="116.0" layoutX="98.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="-2.0" layoutY="386.0" prefHeight="270.0" prefWidth="450.0">
+         <children>
+            <Label fx:id="user_nickanme" layoutX="225.0" layoutY="61.0" text="user_nickname" />
+            <ImageView fx:id="icon" fitHeight="108.0" fitWidth="107.0" layoutX="58.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true" />
+            <Label fx:id="user_signature" layoutX="226.0" layoutY="115.0" text="user_signature" />
+            <Button fx:id="send_message" layoutX="117.0" layoutY="186.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="219.0" text="发送信息" />
+         </children>
+      </AnchorPane>
+   </children>
+</Pane>

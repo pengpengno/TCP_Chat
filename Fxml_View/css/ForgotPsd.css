@@ -1,0 +1,24 @@
+.bavk_to_login{
+	
+    	-fx-cursor: hand;
+
+
+    	-fx-background-position: center center;
+    	-fx-background-repeat: no-repeat;
+    	-fx-background-radius: 20px;
+    	-fx-background-color: rgba(253,245,230,0.5);
+
+
+}
+.confirm{
+	
+    	-fx-cursor: hand;
+
+
+    	-fx-background-position: center center;
+    	-fx-background-repeat: no-repeat;
+    	-fx-background-radius: 20px;
+    	-fx-background-color: rgba(253,245,230,0.5);
+
+
+}

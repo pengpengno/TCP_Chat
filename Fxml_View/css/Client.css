@@ -1,0 +1,17 @@
+#close{
+    -fx-background-image: url("E:/eclipse/chat/src/img/tool/close1.png");
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: rgba(255,255,255,0);
+    -fx-cursor: hand;
+    -fx-background-size :20px 20px;
+}
+
+#min
+{
+    -fx-background-image: url("E:/eclipse/chat/src/img/tool/min.png");
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: rgba(255,255,255,0);
+    -fx-cursor: hand;
+}
